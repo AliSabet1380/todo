@@ -11,7 +11,7 @@ const AuthForm = (props) => {
       view="magic_link"
       showLinks={false}
       providers={[]}
-      redirectTo={"https://todo-git-main-alisabet1380.vercel.app/auth/callback"}
+      redirectTo={"https://todo-alisabet1380.vercel.app/auth/callback"}
       appearance={{
         theme: "dark",
         button: {
