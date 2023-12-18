@@ -13,7 +13,5 @@ export async function GET(req) {
     await supabase.auth.exchangeCodeForSession(code);
   }
 
-  return NextResponse.redirect(
-    new URL("/dashboard", "https://todo-nine-rouge.vercel.app")
-  );
+  return NextResponse.redirect(new URL("/dashboard", req.url));
 }
